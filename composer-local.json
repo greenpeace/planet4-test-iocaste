@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 test-iocaste",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-4862",
+		"greenpeace/planet4-master-theme" : "dev-planet-5048",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master"
 	},
 	"data_from": "international",

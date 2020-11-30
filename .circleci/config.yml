@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:7.3
+    - image: greenpeaceinternational/p4-builder:latest
       auth:
         <<: *docker_auth
 
@@ -159,7 +159,10 @@ job_definitions:
       - attach_workspace:
           at: /tmp/workspace
       - run: activate-gcloud-account.sh
-      - run: BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num) make deploy
+      - run: make prepare-helm
+      - run: make backup
+      - run: BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num) make deploy-helm
+      - run: make post-deploy
       - when:
           condition: << parameters.is_prod >>
           steps:

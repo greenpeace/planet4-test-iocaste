@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:planet-5963
+    - image: greenpeaceinternational/p4-builder:latest
       auth:
         <<: *docker_auth
 
@@ -34,8 +34,6 @@ job_environments:
     NEWRELIC_APPNAME: P4 test-iocaste Development
     WP_DB_NAME: planet4-testioca_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-iocaste-stateless-develop
-    ELASTIC_APM_SERVER_URL: https://apm.p4.greenpeace.org
-    ELASTIC_APM_SERVICE_NAME: P4 test-iocaste Development
 
 
 commands:

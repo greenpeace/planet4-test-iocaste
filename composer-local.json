@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme": "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "7",
 		"elastic/apm-agent": "v1.0.0"
 	},
 	"data_from": "international",
@@ -15,6 +15,20 @@
 		{
 			"type": "vcs",
 			"url": "https://github.com/elastic/apm-agent-php"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
+				"type": "wordpress-plugin",
+				"autoload": null,
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/4138c10b9c44b14c1622179405359ad0dc2d2f81.zip"
+				}
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-iocaste ",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-master",
+		"greenpeace/planet4-master-theme": "dev-planet-5963-elastic-apm-php-agent/",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "7",
 		"elastic/apm-agent": "v1.0.0"
 	},

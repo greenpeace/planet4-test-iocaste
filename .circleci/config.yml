@@ -34,6 +34,9 @@ job_environments:
     NEWRELIC_APPNAME: P4 test-iocaste Development
     WP_DB_NAME: planet4-testioca_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-iocaste-stateless-develop
+    ELASTIC_APM_SERVER_URL: https://apm.p4.greenpeace.org
+    ELASTIC_APM_SERVICE_NAME: P4 test-iocaste Development
+    ELASTIC_APM_SECRET_TOKEN: abcd
 
 
 commands:

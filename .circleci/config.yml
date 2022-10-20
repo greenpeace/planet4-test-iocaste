@@ -33,6 +33,7 @@ job_environments:
     ELASTIC_APM_SERVICE_NAME: P4 test-iocaste Development
     ELASTIC_APM_ENABLED: true
     ELASTIC_APM_ENVIRONMENT: development
+    P4_ACTION_POSTTYPE_SLUG: ação
 commands:
   approve_job:
     description: "Approve an on-hold job."

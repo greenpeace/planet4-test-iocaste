@@ -29,10 +29,6 @@ job_environments:
     HELM_RELEASE: planet4-test-iocaste
     WP_DB_NAME: planet4-testioca_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-iocaste-stateless-develop
-    ELASTIC_APM_SERVER_URL: https://apm.p4.greenpeace.org
-    ELASTIC_APM_SERVICE_NAME: P4 test-iocaste Development
-    ELASTIC_APM_ENABLED: true
-    ELASTIC_APM_ENVIRONMENT: development
     P4_ACTION_POSTTYPE_SLUG: ação
 commands:
   approve_job:

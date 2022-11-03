@@ -9,11 +9,8 @@ job_environments:
     CLOUDSQL_INSTANCE: p4-develop-k8s
     GOOGLE_PROJECT_ID: planet-4-151612
     GCLOUD_CLUSTER: p4-development
-    HELM_NAMESPACE: develop
+    HELM_NAMESPACE: test-iocaste
     HELM_RELEASE: planet4-test-iocaste
     WP_DB_NAME: planet4-testioca_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-iocaste-stateless-develop
-    ELASTIC_APM_SERVER_URL: https://apm.p4.greenpeace.org
-    ELASTIC_APM_SERVICE_NAME: P4 test-iocaste Development
-    ELASTIC_APM_ENABLED: true
-    ELASTIC_APM_ENVIRONMENT: development
+    P4_ACTION_POSTTYPE_SLUG: ação

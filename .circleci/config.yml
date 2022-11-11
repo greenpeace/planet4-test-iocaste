@@ -33,7 +33,6 @@ job_environments:
     HELM_RELEASE: planet4-test-iocaste
     WP_DB_NAME: planet4-testioca_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-iocaste-stateless-develop
-    P4_ACTION_POSTTYPE_SLUG: ação
 
 
 commands:

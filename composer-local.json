@@ -3,6 +3,6 @@
 	"description": "Greenpeace P4 test-iocaste ",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-feat/timber-2",
+		"greenpeace/planet4-master-theme": "dev-feat/timber-2"
 	}
 }

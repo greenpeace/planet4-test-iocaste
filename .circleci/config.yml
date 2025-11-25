@@ -38,6 +38,7 @@ job_environments:
     APP_HOSTPATH: test-iocaste
     CONTAINER_PREFIX: planet4-test-iocaste
     WP_DB_NAME_PREFIX: planet4-testioca_wordpress
+    GIT_REF: upgrade-post-type-switcher
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org

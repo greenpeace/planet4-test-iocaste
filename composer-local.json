@@ -6,5 +6,24 @@
 		"greenpeace/planet4-master-theme": "7",
 		"wpackagist-plugin/query-monitor": "3.*"
 	},
-	"repositories": []
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/b0106a3d9cb94c88b893181b18fed9e9e3ce78e4.zip"
+				}
+			}
+		}
+	]
 }
